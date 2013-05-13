@@ -1,0 +1,64 @@
+.container_7           { margin-left: auto; margin-right: auto; width: 1176px; padding: 2px; }
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7  { display: inline; float: left; margin: 5px; border-radius: 5px; text-align: center;}
+
+.alpha                  { margin-left: 0; }
+.omega                  { margin-right: 0; }
+
+.container_7 .grid_1   { width: 158px; background-color: red;}
+.container_7 .grid_2   { width: 326px; background-color: green;}
+.container_7 .grid_3   { width: 494px; background-color: blue;}
+.container_7 .grid_4   { width: 662px; background-color: brown;}
+.container_7 .grid_5   { width: 830px; background-color: yellow;}
+.container_7 .grid_6   { width: 998px; background-color: black;}
+.container_7 .grid_7   { width: 1166px; background-color: aquamarine;}
+
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7      { position: relative; }
+
+
+.container_7 .push_1   { left: 168px;}
+.container_7 .push_2   { left: 336px; }
+.container_7 .push_3   { left: 504px; }
+.container_7 .push_4   { left: 672px; }
+.container_7 .push_5   { left: 840px; }
+.container_7 .push_6   { left: 1008px; }
+
+.container_7 .pull_1   { left: -168px }
+.container_7 .pull_2   { left: -336px; }
+.container_7 .pull_3   { left: -504px; }
+.container_7 .pull_4   { left: -672px; }
+.container_7 .pull_5   { left: -840px; }
+.container_7 .pull_6   { left: -1008px; }
+
+
+.container_7 .prefix_1 { padding-left: 168px;}
+.container_7 .prefix_2 { padding-left: 336px; }
+.container_7 .prefix_3 { padding-left: 504px; }
+.container_7 .prefix_4 { padding-left: 672px; }
+.container_7 .prefix_5 { padding-left: 840px; }
+.container_7 .prefix_6 { padding-left: 1008px; }
+
+
+.container_7 .suffix_1 { padding-right: 168px;}
+.container_7 .suffix_2 { padding-right: 336px; }
+.container_7 .suffix_3 { padding-right: 504px; }
+.container_7 .suffix_4 { padding-right: 672px; }
+.container_7 .suffix_5 { padding-right: 840px; }
+.container_7 .suffix_6 { padding-right: 1008px; }
+
+
+.clear                 { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+
+* {font-size:50px;}

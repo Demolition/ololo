@@ -1,0 +1,34 @@
+
+.header {display: inline-block; height:42px; font-size:30px; right:0; background-color: #f3f3f3; padding-left:190px;}
+.container_16 {}
+#profile-bar {height:560px;}
+.details {width:220px;}
+#menu {height:40px;}
+.follow {float:right; font-size:30px;}
+#contant {height:850px;}
+#popular { height:325px; }
+.rep {height:52px; font-size:27px; border:1px; 0px;}
+.ram {font-size:14px;}
+#contributed {background-color:blue; height:325px;}
+#calendar {}
+.days {width:220px; height:100px; margin:0px; float:left;}
+.image {height:140px; background-color:green;}
+#activity {}
+.unactive {width:100%; height:45px;}
+#empty { height:250px;}
+#footer {height:230px; display:block;}
+.footer-nav {width:180px; display:block; float:left; height:240px;}
+container.clearfix {content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;}
+
+dl {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
